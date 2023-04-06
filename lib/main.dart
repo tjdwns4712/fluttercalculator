@@ -146,11 +146,11 @@ class _WidgetAppState extends State<WidgetApp> {
                         //입력 받은 vlaue2의 값을 double 타입으로 받아옴
                         double result;
                         // 결과를 위한 변수
-                        if (_buttonText == '더하기') {
+                        if (_buttonText == '+') {
                           result = value1nt + value2nt;
-                        } else if (_buttonText == '빼기') {
+                        } else if (_buttonText == '-') {
                           result = value1nt - value2nt;
-                        } else if (_buttonText == '곱하기') {
+                        } else if (_buttonText == 'x') {
                           result = value1nt * value2nt;
                         } else {
                           result = value1nt / value2nt;
